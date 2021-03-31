@@ -1,8 +1,8 @@
 # n8n-heroku
 
-![Docker](https://github.com/sarveshpro/n8n-heroku/workflows/Docker/badge.svg) ![Heroku](https://github.com/sarveshpro/n8n-heroku/workflows/Heroku/badge.svg)
+![Docker](https://github.com/andtheweb/n8n-heroku/workflows/Docker/badge.svg) ![Heroku](https://github.com/andtheweb/n8n-heroku/workflows/Heroku/badge.svg)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarveshwarge/n8n-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/andtheweb/n8n-heroku)
 
 New method, just click, configure and get your n8n running.
 Also, now set app stack to container and simply connect this Github repo and deploy, heroku uses default configuration from app.json
@@ -27,7 +27,7 @@ you can change your app's stack using heroku cli, make sure you have heroku cli 
     heroku login
 
 #### change app stack
-    heroku stack:set contaner --app APP_NAME
+    heroku stack:set container --app APP_NAME
 replace APP_NAME with your heroku app name
 
 ### STEP 2: ADD Config Vars for enabling basic authentication (Optional)
